@@ -1,6 +1,6 @@
 class PostController < ApplicationController
   def create
-  	@post = Post.new(request_data: params)
+  	@post = Post.new(request_data: params.to_s)
 
     respond_to do |format|
       if @post.save
