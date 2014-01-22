@@ -9,6 +9,9 @@ gem 'pg'
 # Pry for rails
 gem 'pry-rails'
 
+# For Heroku
+gem 'rails_12factor'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
