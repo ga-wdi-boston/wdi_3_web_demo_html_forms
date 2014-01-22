@@ -1,6 +1,4 @@
 PostResponder::Application.routes.draw do
-  post "/posts", to: "post#create"
-  get "/posts/:id", to: "post#show"
-  get "/posts", to: "post#index"
+  resources :posts
   root to: "post#index"
 end

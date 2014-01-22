@@ -1,4 +1,4 @@
-class PostController < ApplicationController
+class PostsController < ApplicationController
   def create
   	@post = Post.new(request_data: params.to_s)
 
