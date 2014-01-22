@@ -1,6 +1,5 @@
 class PostController < ApplicationController
   def create
-  	binding.pry
   	@post = Post.new(request_data: params)
 
     respond_to do |format|
